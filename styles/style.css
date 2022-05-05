@@ -210,6 +210,9 @@ text-align: center;
 .kaufman{
 padding: 90px 0;
 background-color: #1f1f1f;
+display: flex;
+flex-direction: column;
+align-content: center;
 overflow: hidden;
 position: relative;
 z-index: -2;
