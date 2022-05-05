@@ -259,11 +259,10 @@ min-height: 350px;
 .footer__columns{
   border: 1.5px solid blue;
   width: 90%;
-  margin: 0 auto 0;
+  margin: 60px auto 40px;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  min-height: 350px;
 }
 .column__content_copyright{
   display: flex;
