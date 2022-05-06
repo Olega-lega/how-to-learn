@@ -5,7 +5,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700px;
 }
-/*Header*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -31,7 +30,7 @@ bottom: 30px;
 width: 730px;
 line-height: 96px;
 font-size: 102px;
-font-style: bolder;
+font-weight: bolder;
 margin: 0 0 0 64px;
 display: flex;
 align-items: center;
@@ -69,7 +68,7 @@ background-color: #2f80ed;
 background-size: cover;
 top: 0;
 }
-/*Description*/
+
 .description{
 display: flex;
 align-items: center;
@@ -106,7 +105,7 @@ margin-bottom: 30px;
 line-height: 34px;
 font-weight: bold;
 }
-/*Digits*/
+
 .digits{
 margin: auto;
 display: flex;
@@ -116,7 +115,7 @@ flex-direction: column;
 }
 .section-title{
 width: 60%;
-margin: 100 auto 0;
+margin: 100px auto 0;
 text-align: center;
 line-height: 1.15;
 font-size: 60px;
@@ -160,7 +159,7 @@ font-weight: normal;
 margin: 20px 0;
 padding: 0;
 }
-/*Feyman*/
+
 .feynman{
 padding: 0;
 height: 890px;
@@ -206,7 +205,7 @@ padding: 0;
   font-weight: normal;
   text-decoration: none;
 }
-/*Kaufman*/
+
 .kaufman{
 margin: 0;
 background-color: #1f1f1f;
@@ -254,7 +253,7 @@ z-index: -2;
   height: 877px;
   margin: 0;
 }
-/*Footer*/
+
 .footer{
 padding-top: 60px;
 padding-bottom: 40px;
