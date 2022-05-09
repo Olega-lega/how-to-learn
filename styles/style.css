@@ -355,13 +355,16 @@
   margin-bottom: 16px;
 }
 
-.footer__column-link {
-  padding: 0;
+.footer__column-link_ul {
+  list-style-type: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  text-decoration: none;
-  list-style-type: none;
+}
+
+.footer__column-link {
+  padding: 0;
+  text-decoration: none;  
   color: white;
 }
 
