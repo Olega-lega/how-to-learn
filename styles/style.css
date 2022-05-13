@@ -3,7 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700px;
+  font-weight: bold;
 }
 
 .header {
@@ -22,7 +22,7 @@
   height: 32px;
 }
 
-.logo__place_header {
+.logo_place_header {
   left: 64px;
   top: 30px;
   position: absolute;
@@ -255,16 +255,16 @@
   z-index: -2;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: #ffffff;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: #ffffff;
   margin-top: 20px;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   color: #ffffff;
   margin: 0 auto;
 
@@ -353,19 +353,16 @@
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 16px;
-}
-
-.footer__column-link_ul {
+  padding: 0;
   list-style-type: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .footer__column-link {
-  padding: 0;
   text-decoration: none;
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-link:hover {
